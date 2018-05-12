@@ -1,29 +1,29 @@
-1. ¿ËÂ¡Ô¶¶Ë²Ö¿âµ½±¾µØ£º
-    git clone https://github.com/mountainfamer/pythonic-journey.git  #clone°ÑÔ¶³Ì²Ö¿â¿ËÂ¡µ½±¾µØ£¬µ«±¾µØ²¢Ã»ÓĞÈÎºÎ·ÖÖ§£»Èç¹ûÒªÌá½»ÄÚÈİ£¬»¹ĞèÒª´´½¨Ò»¸ö±¾µØ·ÖÖ§(²Î¿¼4)£»
-    È»ºó,À­È¡Ò»´Î´úÂë,½¨Á¢±¾µØ·ÖÖ§ÓëÔ¶¶Ë·ÖÖ§µÄÁª½á£» 
-2. »ñÈ¡Ô¶¶Ë·ÖÖ§µ½±¾µØ£º
-  1) fetch·½Ê½£º
+1. å…‹éš†è¿œç«¯ä»“åº“åˆ°æœ¬åœ°ï¼š
+    git clone https://github.com/mountainfamer/pythonic-journey.git  #cloneæŠŠè¿œç¨‹ä»“åº“å…‹éš†åˆ°æœ¬åœ°ï¼Œä½†æœ¬åœ°å¹¶æ²¡æœ‰ä»»ä½•åˆ†æ”¯ï¼›å¦‚æœè¦æäº¤å†…å®¹ï¼Œè¿˜éœ€è¦åˆ›å»ºä¸€ä¸ªæœ¬åœ°åˆ†æ”¯(å‚è€ƒ4)ï¼›
+ Â   ç„¶å,æ‹‰å–ä¸€æ¬¡ä»£ç ,å»ºç«‹æœ¬åœ°åˆ†æ”¯ä¸è¿œç«¯åˆ†æ”¯çš„è”ç»“ï¼›æœ€ågit push -f(è‡³äºä¸ºä»€ä¹ˆè¦åŠ -f[å¼ºåˆ¶åˆå…¥]ï¼Œåé¢å†è¡¥å……åŸå› ). 
+2. è·å–è¿œç«¯åˆ†æ”¯åˆ°æœ¬åœ°ï¼š
+  1) fetchæ–¹å¼ï¼š
     git init
     git remote add origin https://github.com/mountainfamer/pythonic-journey.git
-    git fetch origin		  	 #»ñÈ¡Ô¶³Ì·ÖÖ§µ½±¾µØ£» 
-  2) pull·½Ê½£º 
+    git fetch origin		  	 #è·å–è¿œç¨‹åˆ†æ”¯åˆ°æœ¬åœ°ï¼› 
+  2) pullæ–¹å¼ï¼š 
     git init
     git remote add origin https://github.com/mountainfamer/pythonic-journey.git
-    git pull origin master		 #»ñÈ¡Ô¶³Ì·ÖÖ§µ½±¾µØ£»
-3. ´ÓÔ¶³Ì·ÖÖ§origin/master´´½¨±¾µØ·ÖÖ§
-    git checkout -b master origin/master #´ÓÔ¶³Ì·ÖÖ§origin/master´´½¨±¾µØ·ÖÖ§master²¢¼ì³ö; 
-    git checkout -b test   origin/master #´ÓÔ¶³Ì·ÖÖ§origin/master´´½¨±¾µØ·ÖÖ§master²¢¼ì³ö; 
-4. git³õÊ¼»¯ºóÎªÊ²Ã´²»ÄÜ´´½¨±¾µØ·ÖÖ§
+    git pull origin master		 #è·å–è¿œç¨‹åˆ†æ”¯åˆ°æœ¬åœ°ï¼›
+3. ä»è¿œç¨‹åˆ†æ”¯origin/masteråˆ›å»ºæœ¬åœ°åˆ†æ”¯
+    git checkout -b master origin/master #ä»è¿œç¨‹åˆ†æ”¯origin/masteråˆ›å»ºæœ¬åœ°åˆ†æ”¯masterå¹¶æ£€å‡º; 
+    git checkout -b test   origin/master #ä»è¿œç¨‹åˆ†æ”¯origin/masteråˆ›å»ºæœ¬åœ°åˆ†æ”¯masterå¹¶æ£€å‡º; 
+4. gitåˆå§‹åŒ–åä¸ºä»€ä¹ˆä¸èƒ½åˆ›å»ºæœ¬åœ°åˆ†æ”¯
     git init
-    #ÒòÎªinitºó£¬±¾µØµÄmaster·ÖÖ§Ã»ÕæÕı´´½¨ºÃ£¬±ØĞëÒªÏÈÌá½»Ò»¸öÎÄ¼ş£¬²ÅÄÜ´´½¨Íê³É;
+    #å› ä¸ºinitåï¼Œæœ¬åœ°çš„masteråˆ†æ”¯æ²¡çœŸæ­£åˆ›å»ºå¥½ï¼Œå¿…é¡»è¦å…ˆæäº¤ä¸€ä¸ªæ–‡ä»¶ï¼Œæ‰èƒ½åˆ›å»ºå®Œæˆ;
     #create a file
     git add .
-    git commit -m "add a test file"	 #Ö´ĞĞµ½ÕâÒ»²½ºó£¬master·ÖÖ§´´½¨ÎÄ³É£¬¾Í¿ÉÒÔ´´½¨·ÖÖ§ÁË;
-    git branch test			 #test·ÖÖ§´´½¨³É¹¦;
-5. ¸÷ÖÖcheckout·½Ê½µÄÇø±ğ£º
-    git checkout -b master_copy    	 #´Óµ±Ç°·ÖÖ§´´½¨ĞÂ·ÖÖ§master_copy²¢¼ì³ö£¬×öÁËÁ½¸ö¶¯×÷£º´´½¨£¬¼ì³ö³Éµ±Ç°·ÖÖ§;
-    git checkout -b master master_copy   #ÉÏÃæµÄÍêÕû°æ 
-    git checkout features/performance	 #¼ì³öÒÑ´æÔÚµÄ·ÖÖ§features/performance£¬Ö»×öÁËÒ»¸ö¶¯×÷£º¼ì³ö³Éµ±Ç°·ÖÖ§;
-    git checkout --track hotfixes/BJ	 #¼ì³öÔ¶³Ì·ÖÖ§hotfixes/BJ²¢´´½¨±¾µØ¸ú×Ù·ÖÖ§
-    git checkout v2.0                    #¼ì³ö°æ±¾v2.0
-    git checkout -b devel origin/develop #´ÓÔ¶³Ì·ÖÖ§develop´´½¨ĞÂ±¾µØ·ÖÖ§devel²¢¼ì³ö
+    git commit -m "add a test file"	 #æ‰§è¡Œåˆ°è¿™ä¸€æ­¥åï¼Œmasteråˆ†æ”¯åˆ›å»ºæ–‡æˆï¼Œå°±å¯ä»¥åˆ›å»ºåˆ†æ”¯äº†;
+    git branch test			 #teståˆ†æ”¯åˆ›å»ºæˆåŠŸ;
+5. å„ç§checkoutæ–¹å¼çš„åŒºåˆ«ï¼š
+    git checkout -b master_copy    	 #ä»å½“å‰åˆ†æ”¯åˆ›å»ºæ–°åˆ†æ”¯master_copyå¹¶æ£€å‡ºï¼Œåšäº†ä¸¤ä¸ªåŠ¨ä½œï¼šåˆ›å»ºï¼Œæ£€å‡ºæˆå½“å‰åˆ†æ”¯;
+    git checkout -b master master_copy   #ä¸Šé¢çš„å®Œæ•´ç‰ˆ 
+    git checkout features/performance	 #æ£€å‡ºå·²å­˜åœ¨çš„åˆ†æ”¯features/performanceï¼Œåªåšäº†ä¸€ä¸ªåŠ¨ä½œï¼šæ£€å‡ºæˆå½“å‰åˆ†æ”¯;
+    git checkout --track hotfixes/BJ	 #æ£€å‡ºè¿œç¨‹åˆ†æ”¯hotfixes/BJå¹¶åˆ›å»ºæœ¬åœ°è·Ÿè¸ªåˆ†æ”¯
+    git checkout v2.0                    #æ£€å‡ºç‰ˆæœ¬v2.0
+    git checkout -b devel origin/develop #ä»è¿œç¨‹åˆ†æ”¯developåˆ›å»ºæ–°æœ¬åœ°åˆ†æ”¯develå¹¶æ£€å‡º
