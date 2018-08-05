@@ -17,7 +17,9 @@ Pyhton是面向对象的语言，类是python最基本的数据类型，Python�
 
 ###1.2.1 Identifiers, Objects, and the Assignment Statement
 **example**: temperature = 98.6
+
 **Note**: 在上面的语句中，temperature是identifier(也叫name),98.6是object,=建立这两者的联系;temperature指向浮点对象(类)的实例98.6, python中一切皆对象，数值型也是对象；对象存放在内存中，标识符（变量\引用）指向这个地址；
+
 - Identifier reference an instance of float class having value 98.6.
 - Identifiers in python are case-sensitive(标识符对大小写敏感，即大小写不同的标识符标识不同的name或identifier)；
 - identifier不能使用reserved words(保留字);
@@ -95,6 +97,7 @@ prime = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
 a=[1, 2, 3, 4]; b = a #指向同一个列表；c = list(a) #复制一个列表；
 则： a与b指向同一个list，而c指向内容与a/b相同的另外一个list；
 所以： id(a) == id(b) , id(c) != id(a) ; a is b , 而 a is not c;
+**example**:list的有些方法直接影响源list，而不会可打印返回结果，如：insert, remove, sort， 这些方法可以允许级联使用，如listA.insert().remove().sort()
 
 **The tuple Class**
 - list的定界符为[],而tuple的定界符为();
